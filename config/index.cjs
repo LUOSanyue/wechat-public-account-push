@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '0db434bcfbb89891eff71151993ce8f7',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '四川',
+  CITY: '巴中',
 
   USERS: [
     {
@@ -36,7 +36,7 @@ const USER_CONFIG = {
           type: '节日', name: '李四', year: '1996', date: '09-31',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '恋爱纪念日', year: '2022', date: '07-31',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -48,6 +48,11 @@ const USER_CONFIG = {
       ],
     },
   ],
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+    },
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
